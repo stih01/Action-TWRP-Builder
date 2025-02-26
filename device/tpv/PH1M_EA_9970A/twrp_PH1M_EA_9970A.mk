@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from PH1M_EA_9970A device
-$(call inherit-product, device.mk)
+$(call inherit-product, device/tpv/PH1M_EA_9970A/device.mk)
 
 PRODUCT_DEVICE := PH1M_EA_9970A
 PRODUCT_NAME := twrp_PH1M_EA_9970A
